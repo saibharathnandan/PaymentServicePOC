@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="brokerservice" target="1.8" />
+      <module name="fraudcheck" target="1.8" />
+      <module name="paymentservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BrokerService" options="" />
+      <module name="FraudCheck" options="-parameters" />
+      <module name="brokerservice" options="-parameters" />
+      <module name="fraudcheck" options="-parameters" />
+      <module name="paymentservice" options="-parameters" />
+    </option>
+  </component>
+</project>
